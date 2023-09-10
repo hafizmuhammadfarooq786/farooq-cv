@@ -7,7 +7,10 @@ import Skills from "./Skills";
 
 const Home = () => {
   return (
-    <main className="column align-center justify-center">
+    <main className="column align-center justify-center relative">
+      <a className="download_button" href="https://res.cloudinary.com/farooq-cloud-db/image/upload/v1694303695/muhammad-farooq-resume_yqbccc.pdf" rel="noopener noreferrer" target="_blank" >
+        <p className="detail">Download</p>
+      </a>
       <Header />
       <div className="row align-start justify-between padding-24">
         <div className="column">

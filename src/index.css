@@ -16,7 +16,7 @@ p {
   font-size: 14px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -32,6 +32,26 @@ img {
   backface-visibility: hidden;
   transform: translateZ(0);
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.relative {
+  position: relative;
+}
+
+.download_button {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  background: #000000;
+  padding: 14px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgb(200, 200, 200);
+}
+
+.download_button .detail{
+  color: #FFFFFF;
+  font-size: 17px;
 }
 
 .row {
@@ -78,7 +98,7 @@ section {
 }
 
 
-.padding-24{
+.padding-24 {
   padding: 0px 16px;
 }
 
@@ -89,7 +109,7 @@ section {
   background-color: #000000;
 }
 
-.dot{
+.dot {
   height: 4px;
   min-height: 4px;
   width: 4px;
