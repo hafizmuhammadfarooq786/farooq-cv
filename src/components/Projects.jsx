@@ -4,30 +4,32 @@ import details from "../details";
 const Projects = () => {
   return (
     <div className="projects">
-      <h1 className="label">Software Projects</h1>
+      <p className="label">Software Projects</p>
       {details.projects.map((product, index) => (
         <div className="list" key={index + 1}>
-          <h1 className="highlight">{product.name}</h1>
-          <p className="detail">{`${product.role}`}</p>
-
+          <div className="row align-center">
+            <p className="detail">{product.name}</p>
+            <span style={{ margin: "0 8px" }}>|</span>
+            <p className="detail">{`${product.role}`}</p>
+          </div>
           {product["products"] && (
             <div className="product-links">
               <a
                 className="detail"
+                style={{ textDecoration: 'underline' }}
                 href={`${product["products"][0].url}`}
               >{`${product["products"][0].platform}`}</a>
               {product["products"][1] && ` | `}
               {product["products"][1] && (
                 <a
                   className="detail"
+                  style={{ textDecoration: 'underline' }}
                   href={`${product["products"][1].url}`}
                 >{`${product["products"][1].platform}`}</a>
               )}
             </div>
           )}
-
-          <p className="detail">{`${product.description}`}</p>
-
+          <p className="detail" style={{ margin: '4px 0' }}>{`Technologies: ${product.stacks}`}</p>
           <ul>
             {product.details.map((detail, subIndex) => (
               <li>

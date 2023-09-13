@@ -4,7 +4,7 @@ import details from "../details";
 const Contact = () => {
   return (
     <div className="contact">
-      <h1 className="label">Contacts</h1>
+      <p className="label">Contacts</p>
       {/* number */}
       <h1 className="highlight">{`${details.contact[0].label}:`}</h1>
       <div className="phone-number">

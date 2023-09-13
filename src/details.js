@@ -1,8 +1,7 @@
 export default {
   name: "Hafiz Muhammad Farooq",
   profession: "Senior Software Engineer",
-  profile:
-    "A dynamic and target-oriented person whose main interest lies in the world of programming. I love being more than just a developer and so I involve myself in every part of a products journey. I believe in owning what I choose to create. This lets me experience all aspects ranging from in-depth product research to planning the journey to reaching the product market fit. This drive to learn is what keeps me involved in both, the technical and management side of my work and allows me to engage in perhaps my greatest achievement; the ability to innovate.",
+  profile: "A dynamic and target-oriented person whose main interest lies in the world of programming. I love being more than just a developer and so I involve myself in every part of a products journey. I believe in owning what I choose to create. This lets me experience all aspects ranging from in-depth product research to planning the journey to reaching the product market fit. This drive to learn is what keeps me involved in both, the technical and management side of my work and allows me to engage in perhaps my greatest achievement; the ability to innovate.",
   education: [
     {
       name: "Punjab University College of Information Technology (PUCIT)",
@@ -17,6 +16,7 @@ export default {
       description: "F.SC Pre Engineering",
       passingYear: "Year: 2011-2013",
       grade: "Grade: A+ (83%)",
+      major: "Mathematics, Physics, Chemistry",
       details: "During my F.Sc Pre-Engineering studies, I consistently demonstrated a strong aptitude for mathematics, achieving an exceptional score of 98%. This remarkable performance reflects my passion for the subject and my commitment to academic excellence."
     },
   ],
@@ -138,6 +138,7 @@ export default {
   projects: [
     {
       name: "Forest.ly",
+      stacks: "React JS, Next JS, Node JS, Stripe Payment, Cloudinary, Github Actions",
       products: [
         {
           platform: "Website",
@@ -149,7 +150,6 @@ export default {
         },
       ],
       role: "Product Engineer",
-      description: `Forests are life. forest.ly is transparent climate protection to feel.`,
       details: [
         "Utilized Technologies: React JS, Next JS, Node JS for Restful APIs, and integrated Stripe Payment Gateway.",
         "Developed a dual-lingual website from the ground up using the Next.js framework.",
@@ -160,6 +160,7 @@ export default {
     },
     {
       name: "University Of Nizamia Rizwia",
+      stacks: "React JS, Next JS, Cloudinary, Ruby on Rails, Netlify, GitLab CI/CD",
       products: [
         {
           platform: "Admissions",
@@ -170,14 +171,31 @@ export default {
           url: "https://admin-portal-jnr.netlify.app/",
         },
       ],
-      role: "Product Engineer",
-      description: `The edifying garden commenced by Muhaddis e Azam Pakistan Hazrat Allama Abu Al Fazal Muhammad Sardar Ahmed (R.A), initially cultivated by Muhaddisse Kabir Astaz ul Aulma Sheikh Alhadis Allama Ghulam Rasool Rizvi (R.A.) was further ornamented on the head of Fiqia Millat Astaz ul Aulma Sheikh Alhadid Hazzrat Allama Mufti Mhammad Abdul Qayum Hazarvi (R.A) who not only shaped it into heaven but also familiarize the entire Islamic world with the scent of its passive breathing fragrance.`,
+      role: "Frontend Engineer",
       details: [
-        "Utilized Technologies: React.js, Next.js, Node.js",
+        "Utilized Technologies: React.js, Next.js",
         "Implemented various features including Regular Admissions, Recurring Admissions, Student Onboarding, Examination Portal, Attendance Portal, and Real-time Chat.",
         "Developed a Teacher Registration Portal",
         "Employed AWS EC2, AWS Amplify, AWS S3, Heroku, and Netlify for deployment",
       ],
     },
+
+    {
+      name: "Airlift",
+      stacks: "Angular 8.0, Firebase Firestore, Firebase Cloud Messaging, Firebase Hosting, Google Analytics",
+      products: [
+        {
+          platform: "Transit Pilot Trainng Software",
+          url: "https://transit-pilot-training.web.app/login",
+        },
+      ],
+      role: "Product Engineer",
+      details: [
+        "Developed a pilot training software for Airlift, a dynamic transportation startup known for connecting passengers with bus owners across urban hubs.",
+        "Addressed a significant challenge for Airlift by devising an efficient solution to rapidly train bus owners and drivers, a task that typically posed logistical and time constraints.",
+        "Transformed Airlift's scalability potential by eliminating the need for traditional brick-and-mortar training centers, enabling the company to expand seamlessly.",
+        "This accomplishment exemplifies my ability to leverage technology to solve real-world challenges and contribute to the success of innovative startups like Airlift.",
+      ],
+    }
   ],
 };
