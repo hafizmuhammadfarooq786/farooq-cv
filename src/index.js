@@ -1,11 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import styled from "styled-components";
-import "./index.css";
-import * as serviceWorker from "./serviceWorker";
-
-import { createBrowserHistory } from "history";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import styled from 'styled-components';
+import App from './App';
+import './index.css';
+import * as serviceWorker from './serviceWorker';
 
 const FlexWrapper = styled.div`
   display: flex;
@@ -15,17 +14,17 @@ const FlexWrapper = styled.div`
   min-height: 100vh;
   max-width: 100vw;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #000000;
 `;
 
-export const history = createBrowserHistory();
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <FlexWrapper>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </FlexWrapper>,
-  document.getElementById("root")
 );
 
 serviceWorker.unregister();

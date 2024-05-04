@@ -1,5 +1,5 @@
 import React from "react";
-import details from "../details";
+import { details } from "../details";
 
 const Projects = () => {
   return (

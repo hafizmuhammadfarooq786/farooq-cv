@@ -1,5 +1,5 @@
 import React from "react";
-import details from "../details";
+import { details } from "../details";
 
 const Skills = () => {
   return (
@@ -35,7 +35,7 @@ const Skills = () => {
         </div>
         {/* Database Skills */}
         <div className="row align-center">
-          <p style={{ marginTop: 4, marginRight: 8 }}>Database:</p>
+          <p style={{ marginTop: 8, marginRight: 8 }}>Database:</p>
           <div className="row">
             {details.databaseSkills.map((skill, index) => (
               <p className="detail" key={index + 1}> {`${skill}${index !== details.databaseSkills.length - 1 ? ',' : ''}`}</p>
@@ -71,7 +71,7 @@ const Skills = () => {
         </div>
         {/* Other Skills */}
         <div className="row align-start">
-          <p className="detail" style={{ marginTop: 4, marginRight: 8 }}>Other Skills:</p>
+          <p className="detail" style={{ marginTop: 6, marginRight: 8 }}>Other Skills:</p>
           <div className="row" style={{ flexWrap: 'wrap' }}>
             {details.otherSkills.map((skill, index) => (
               <p className="detail" key={index + 1}> {`${skill} ${index !== details.otherSkills.length - 1 ? ',' : ''}`}</p>

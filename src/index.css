@@ -7,9 +7,10 @@
 html,
 body {
   scroll-behavior: smooth;
-  font-family: "Varela Round";
+  font-family: 'Varela Round';
   overflow-x: hidden;
   margin: 0.25cm auto;
+  padding: 0cm 0.25cm;
 }
 
 p {
@@ -18,8 +19,8 @@ p {
 
 a {
   text-decoration: none;
+  color: #0791e8;
 }
-
 
 img {
   max-width: 100%;
@@ -49,8 +50,8 @@ img {
   box-shadow: 0 1px 2px rgb(200, 200, 200);
 }
 
-.download_button .detail{
-  color: #FFFFFF;
+.download_button .detail {
+  color: #ffffff;
   font-size: 17px;
 }
 
@@ -89,14 +90,13 @@ img {
 }
 
 button {
-  cursor: pointer
+  cursor: pointer;
 }
 
 section {
   height: 100%;
   width: 100%;
 }
-
 
 .padding-24 {
   padding: 0px 16px;
@@ -161,7 +161,6 @@ section {
   /* margin: 14px 0 4px; */
 }
 
-
 .label {
   font-size: 28px;
   color: rgb(154, 150, 150);
@@ -191,9 +190,9 @@ section {
   margin: 12px 0 0 20px;
 }
 
-.experience .list>.detail,
-.products .list>.detail,
-.projects .list>.detail {
+.experience .list > .detail,
+.products .list > .detail,
+.projects .list > .detail {
   font-weight: 700;
   font-weight: 700;
 }
@@ -222,7 +221,6 @@ section {
 }
 
 @media print {
-
   body,
   .page {
     margin: 0;

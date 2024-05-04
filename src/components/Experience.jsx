@@ -1,5 +1,6 @@
 import React from "react";
-import details from "../details";
+import { details } from "../details";
+
 
 const Experience = () => {
   return (
@@ -8,7 +9,7 @@ const Experience = () => {
       {details.experiences.map((experience, index) => (
         <div className="list" key={index + 1}>
           <div className="row">
-            <a href={experience.website} rel="noopener noreferrer" target="_blank" style={{ fontSize: 16, textDecoration: 'underline', color: '#0791e8' }}> {`${experience.company}`}</a>
+            <a href={experience.website} rel="noopener noreferrer" target="_blank" style={{ fontSize: 16, textDecoration: 'underline' }}> {`${experience.company}`}</a>
             <p style={{ margin: '0 4px' }}>|</p>
             <p className="detail">{experience.title}</p>
           </div>
