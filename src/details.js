@@ -32,12 +32,12 @@ export const details = {
       secDetail: '+92 307 4611427',
       secNumber: '+923074611427',
     },
-    { label: 'Email', detail: 'fahadmuhammad661@gmail.com' },
+    { label: 'Email', detail: 'hafizmuhammadfarooq712@gmail.com' },
     {
       label: 'LinkedIn',
       detail: 'https://www.linkedin.com/in/hafizmuhammadfarooq/',
     },
-    { label: 'Website', detail: 'https://hafizmuhammadfarooq.com/' },
+    { label: 'Website', detail: 'https://hafizmuhammadfarooq.dev/' },
 
     {
       label: 'Address',
