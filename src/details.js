@@ -53,8 +53,18 @@ export const details = {
       title:
         'Senior Software Engineer | February 2019 - Present, Lahore, Pakistan',
       stacks:
-        'React JS, React Native, Storybook, Next JS, NestJs, Primsa ORM, TypeORM, Node JS, ExpressJS',
+        'React JS, Next JS, NestJs, Primsa ORM, Node JS, ExpressJS, Storybook, AWS Cloud, Vercel',
       working: [
+        {
+          title:
+            'Developing a Nestjs backend Application for Sprout that connects investors with the private markets funds and co-investment opportunities that meet their individual needs',
+          stories: [
+            `I was responsible for building the backend of the Sprout application using Nest JS, a progressive Node.js framework. This involved creating a robust and scalable architecture that can efficiently handle API requests from the frontend platform.`,
+            `I developed a set of RESTful APIs that serve as the communication bridge between the frontend and the backend.`,
+            `My work focused on solving the onboarding challenges faced by individual investors and Venture Capitalists (VCs). I designed and implemented backend solutions that streamline the onboarding process, making it more efficient and user-friendly.`,
+            `I set up a CI/CD pipeline to automate the building, testing, and deployment process. This ensures that any changes made to the codebase are automatically tested and deployed, reducing the risk of human error and increasing efficiency.`,
+          ],
+        },
         {
           title:
             'Creating a Storybook of React and React Native Components for Engineers',
@@ -72,26 +82,6 @@ export const details = {
             `Built the website from the ground up, employing custom widgets and components within the Next.js framework, to achieve a seamless user experience and improved site performance.`,
             `Utilized Next.js to optimize SEO performance, achieving a 100% SEO score, and enhancing the website's search engine visibility.`,
             `By using Next.js, I successfully integrated server-side rendering, dynamic routing, and optimized code splitting, resulting in a website that excels in SEO and offers a top-tier user experience.`,
-          ],
-        },
-      ],
-    },
-    {
-      company: 'Sprout',
-      website: 'https://www.platform.viasprout.com/',
-      title:
-        'Backend Engineering Lead | November 2023 - April 2024, Remote, UK',
-      stacks:
-        'Nest JS, Primsa ORM, PostgreSQL, AWS S3, AWS CloudWatch, AWS EC2, Stripe Payment Gateway',
-      working: [
-        {
-          title:
-            'Developing a Nestjs backend Application for Sprout that connects investors with the private markets funds and co-investment opportunities that meet their individual needs.',
-          stories: [
-            `I was responsible for building the backend of the Sprout application using Nest JS, a progressive Node.js framework. This involved creating a robust and scalable architecture that can efficiently handle API requests from the frontend platform.`,
-            `I developed a set of RESTful APIs that serve as the communication bridge between the frontend and the backend.`,
-            `My work focused on solving the onboarding challenges faced by individual investors and Venture Capitalists (VCs). I designed and implemented backend solutions that streamline the onboarding process, making it more efficient and user-friendly.`,
-            `I set up a CI/CD pipeline to automate the building, testing, and deployment process. This ensures that any changes made to the codebase are automatically tested and deployed, reducing the risk of human error and increasing efficiency.`,
           ],
         },
       ],
@@ -125,18 +115,18 @@ export const details = {
       ],
     },
     {
-      company: 'Monadd',
-      website: 'https://monadd.io/',
-      title: 'Frontend Engineer | June 2020 - March 2021, Remote, UK',
-      stacks: 'React JS, Typescript, Redux, Redux Sagas, Google Authentication',
+      company: 'IT_Genesis',
+      LinkedIn: 'https://itgenesis.net/',
+      title: 'Software Engineer | Mar 2018 - Feb 2019, Lahore, Pakistan',
+      stacks:
+        'JavaScript, TypeScript, React, Node.js, Express.js, MongoDB, AWS Cloud, GitHub',
       working: [
         {
-          title:
-            'Build subscription management software that discovers all the services linked to residences and allows residents to manage them.',
+          title: 'Development of a Cloud-Based ERP Solution',
           stories: [
-            `Created a React application with third-party Google login functionality, utilizing Google Auth for seamless authentication.`,
-            `Designed and implemented an onboarding process that allows users to connect, add, and list all of their service providers within the application.`,
-            `Integrated various third-party APIs, including Google Maps, Google Analytics, Hotjar, and Crashlytics, to enhance the application's functionality and user experience.`,
+            'Contributed in the development of the Cloud-Based ERP Solution for hospitals.',
+            'Developed from the ground up every component of the product, with group contribution to work on some problems.',
+            'Familiarised and managed the deployment operations on AWS Cloud Computing.',
           ],
         },
       ],
