@@ -17,7 +17,7 @@ const Header = () => {
         </p>
         <p style={{ margin: '0 4px' }}>|</p>
         <p>
-          <a href="mailto:fahadmuhammad661@gmail.com" rel="noopener noreferrer" target="_blank">fahadmuhammad661@gmail.com</a>
+          <a href="mailto:hafizmuhammadfarooq712@gmail.com" rel="noopener noreferrer" target="_blank">hafizmuhammadfarooq712@gmail.com</a>
         </p>
         <p style={{ margin: '0 4px' }}>|</p>
         <p>

@@ -8,7 +8,7 @@ import Skills from "./Skills";
 const Home = () => {
   return (
     <main className="column align-center justify-center relative">
-      <a className="download_button" href="https://res.cloudinary.com/weoveri/image/upload/v1718181034/Farooq_Resume_gwnlvq.pdf" rel="noopener noreferrer" target="_blank" >
+      <a className="download_button" href="https://res.cloudinary.com/farooq-storage/image/upload/v1719042527/Muhammad_Farooq_k5fh4l.pdf" rel="noopener noreferrer" target="_blank" >
         <p className="detail">Download</p>
       </a>
       <Header />
